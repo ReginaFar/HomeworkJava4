@@ -16,8 +16,9 @@ public class task1 {
         for (int i = 0; i < 10; i++) {
             newList.add(random.nextInt(100));
         }
-        System.out.println(newList);
-        System.out.print(reverseLinkedList(newList));
+        System.out.printf("Исходный список: " + newList);
+        System.out.println();
+        System.out.printf("Перевёрнутый список:" + reverseLinkedList(newList));
     }
 
     public static LinkedList<Integer> reverseLinkedList(LinkedList<Integer> llist) {
